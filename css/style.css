@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.text{
+  position:fixed;
+  font-size: 65px;
+  font-family: 'twaysky';
+  font-weight: bold;
+  left:50%;
+  top: 30px;
+  text-shadow: 0 2px 5px rgba(0,0,0, .3);
+  transform: translateX(-50%);
+}
+@font-face {
+  font-family: 'twaysky';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+}
+
